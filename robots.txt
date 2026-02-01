@@ -1,0 +1,25 @@
+User-Agent: *
+Disallow: /page74922146.html
+Disallow: /politika
+Disallow: /page74943956.html
+Disallow: /soglashenie
+Disallow: /page74950776.html
+Disallow: /soglasiedannie
+Disallow: /page74954186.html
+Disallow: /soglasienareklamu
+Disallow: /page74955736.html
+Disallow: /header
+Disallow: /page74956826.html
+Disallow: /footer
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow:
+
+
+Sitemap: http://drhamza.ru/sitemap.xml

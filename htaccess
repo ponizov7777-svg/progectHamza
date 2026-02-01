@@ -1,0 +1,91 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page73910661.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^massage$ page75633966.html [NC]
+RewriteRule ^massage/$ page75633966.html [NC]
+
+RewriteRule ^doctor$ page111418686.html [NC]
+RewriteRule ^doctor/$ page111418686.html [NC]
+
+RewriteRule ^politika$ page74922146.html [NC]
+RewriteRule ^politika/$ page74922146.html [NC]
+
+RewriteRule ^soglashenie$ page74943956.html [NC]
+RewriteRule ^soglashenie/$ page74943956.html [NC]
+
+RewriteRule ^soglasiedannie$ page74950776.html [NC]
+RewriteRule ^soglasiedannie/$ page74950776.html [NC]
+
+RewriteRule ^soglasienareklamu$ page74954186.html [NC]
+RewriteRule ^soglasienareklamu/$ page74954186.html [NC]
+
+RewriteRule ^header$ page74955736.html [NC]
+RewriteRule ^header/$ page74955736.html [NC]
+
+RewriteRule ^footer$ page74956826.html [NC]
+RewriteRule ^footer/$ page74956826.html [NC]
+
+RewriteRule ^uslugi$ page75629046.html [NC]
+RewriteRule ^uslugi/$ page75629046.html [NC]
+
+RewriteRule ^epilation$ page75869706.html [NC]
+RewriteRule ^epilation/$ page75869706.html [NC]
+
+RewriteRule ^price$ page76515016.html [NC]
+RewriteRule ^price/$ page76515016.html [NC]
+
+RewriteRule ^bioosteo$ page77509046.html [NC]
+RewriteRule ^bioosteo/$ page77509046.html [NC]
+
+RewriteRule ^travmaortoped$ page77695866.html [NC]
+RewriteRule ^travmaortoped/$ page77695866.html [NC]
+
+RewriteRule ^manualtherapy$ page80435126.html [NC]
+RewriteRule ^manualtherapy/$ page80435126.html [NC]
+
+RewriteRule ^medicalmanipulations$ page80435606.html [NC]
+RewriteRule ^medicalmanipulations/$ page80435606.html [NC]
+
+RewriteRule ^cosmetology$ page80436106.html [NC]
+RewriteRule ^cosmetology/$ page80436106.html [NC]
+
+RewriteRule ^doctors$ page80549066.html [NC]
+RewriteRule ^doctors/$ page80549066.html [NC]
+
+RewriteRule ^about$ page80565036.html [NC]
+RewriteRule ^about/$ page80565036.html [NC]
+
+RewriteRule ^contacts$ page81178826.html [NC]
+RewriteRule ^contacts/$ page81178826.html [NC]
+
+RewriteRule ^shares$ page81620366.html [NC]
+RewriteRule ^shares/$ page81620366.html [NC]
+
+RewriteRule ^bioosteo/lechenie_kolena$ page82765636.html [NC]
+RewriteRule ^bioosteo/lechenie_kolena/$ page82765636.html [NC]
+
+RewriteRule ^svf-therapy$ page82767516.html [NC]
+RewriteRule ^svf-therapy/$ page82767516.html [NC]
+
+RewriteRule ^bioosteo/feedback_bio$ page84573396.html [NC]
+RewriteRule ^bioosteo/feedback_bio/$ page84573396.html [NC]
+
+RewriteRule ^kapelnitsy$ page103111306.html [NC]
+RewriteRule ^kapelnitsy/$ page103111306.html [NC]
+
+RewriteRule ^sitemap$ page90196386.html [NC]
+RewriteRule ^sitemap/$ page90196386.html [NC]
+
+
+<IfModule mod_headers.c>
+	Header unset X-Frame-Options
+	Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
